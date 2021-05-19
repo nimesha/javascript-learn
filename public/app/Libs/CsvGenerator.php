@@ -21,7 +21,7 @@ class CsvGenerator
 
             return $rep['file_name'];
         } catch (CannotInsertRecord $e) {
-            //Error log
+            //Error log1
         }
     }
 }
