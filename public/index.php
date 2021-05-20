@@ -1,10 +1,11 @@
 <?php
 
-require_once __DIR__ . '/app/Defines.php';
-require_once __DIR__  . '/vendor/autoload.php';
+require_once  '../app/Defines.php';
+
+require_once '../vendor/autoload.php';
 
 use App\Core\Application;
 
 $app = new Application();
-$app->run();
 
+$app->run();
