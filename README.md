@@ -8,6 +8,12 @@
 ## Installation
 To run this example, you will need to install `Docker`. Also you can run on your own stack.
 
+##important
+csv generation process
+    1. Generate by HTTP request (depend on server execution time, data set size) - done
+    2. Generate by offline jobs processing useing(Redis). - done
+    3. Generate by using mysql Prepared Statements - Not implemented
+
 
 ### 1. Clone the project
 ```
