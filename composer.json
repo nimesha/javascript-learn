@@ -15,7 +15,9 @@
         "nesbot/carbon": "^2.48",
         "league/csv": "^9.7",
         "tomaj/hermes": "^4.0",
-        "rakit/validation": "^1.4",
         "vlucas/valitron": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
