@@ -8,7 +8,6 @@ use Tomaj\Hermes\Dispatcher;
 use Tomaj\Hermes\Handler\HandlerInterface;
 use App\Libs\CsvGenerator;
 use App\Reports\Formater\TurnoverPerBrand;
-use Tomaj\Hermes\MessageInterface;
 
 class CsvGeneratHandler implements HandlerInterface
 {
@@ -16,7 +15,8 @@ class CsvGeneratHandler implements HandlerInterface
 
     public function handle(MessageInterface $message)
     {
-        $payload = $message->getPayload();
+        //     CsvGenerator::csv((new TurnoverPerBrand($dateRange)), $fileName);
+        //     return true;
     }
 }
 
