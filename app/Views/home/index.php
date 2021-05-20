@@ -29,18 +29,20 @@ $meta_title = 'Generate the report.';
                             </div>
                         </div>
                     </div>
-                    <div class="mt-3"></div>
+                    <div class=""></div>
                     <em class="text-light">Generate report by HTTP request. (depending on dataset size and execution time)</em>
                     <br />
                     <button name="download_action" type="submit" value="tpb" class="btn btn-primary">Turnover Per Brand</button>
                     <button name="download_action" type="submit" value="tpd" class="btn btn-primary">Turnover Per Day</button>
                     <br />
                     <div class="mt-4"></div>
-                    <em class="text-light">Generate report by offline processing jobs. (message brokers Redis)</em>
                     <br />
-                    <p>Final output('App/CSV/offile') <span class="text-warning"> Real world project file out put can be send with a email or upload to cloud (AWS s3) </span></p>
-                    <button name="download_action" type="submit" value="tpb_job" class="btn btn-success">Turnover Per Brand</button>
-                    <button name="download_action" type="submit" value="tpd_job" class="btn btn-success">Turnover Per Day</button>
+                    <br /> <br /> 
+                    <em class="text-light">Generate report by offline processing jobs. (message brokers Redis)</em>
+                    <br>
+                    <p >Final output('public/download_csv') <span class="text-warning"> Real world project file out put can be send with a email or upload to cloud (AWS s3) </span></p>
+                    <button name="download_action" type="submit" value="tpb_job" class="btn btn-success btn-sm">Turnover Per Brand</button>
+                    <button name="download_action" type="submit" value="tpd_job" class="btn btn-success btn-sm">Turnover Per Day</button>
                 </fieldset>
             </form>
         </div>
