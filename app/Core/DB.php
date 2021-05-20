@@ -4,7 +4,7 @@ namespace App\Core;
 
 use mysqli;
 
-$dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+$dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT'].'/../');
 $dotenv->load();
 
 class DB
